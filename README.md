@@ -1,6 +1,6 @@
 # Modem: Infrastructure
 
-> Terraform components describing the Modem broadcasting infrastructure
+> [Terraform][] components describing the Modem broadcasting infrastructure
 
 ## Provisioning
 
