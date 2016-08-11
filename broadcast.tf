@@ -1,6 +1,6 @@
 resource "digitalocean_ssh_key" "broadcast" {
   name = "Terraform"
-  public_key = "${file("./secrets/digitalocean/ssh.pub")}"
+  public_key = "${trimspace(file("./secrets/digitalocean/ssh.pub"))}"
 }
 
 resource "digitalocean_droplet" "broadcast" {
